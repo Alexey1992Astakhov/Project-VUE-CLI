@@ -31,7 +31,7 @@ export default {
 
 .header {
   margin-top: 53px;
-  margin-bottom: 57px;
+  margin-bottom: 56px;
   font-family: $familyTitle;
   display: flex;
   flex-direction: row;
