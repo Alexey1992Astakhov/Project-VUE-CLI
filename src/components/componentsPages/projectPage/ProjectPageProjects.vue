@@ -45,52 +45,52 @@ export default {
         {
           id: 1,
           image: "project__item_1.png",
-          title: "Modern Bathroom",
-          text: "Decor / Architecture"
+          title: "Minimal Bedroom",
+          text: "Decor / Architecture",
         },
         {
           id: 2,
           image: "project__item_4.png",
-          title: "Modern Bathroom",
-          text: "Decor / Architecture"
+          title: "Classic Minimal Bedroom",
+          text: "Decor / Architecture",
         },
         {
           id: 3,
           image: "project__item_6.png",
-          title: "Modern Bathroom",
-          text: "Decor / Architecture"
+          title: "Minimal Bedroom table",
+          text: "Decor / Architecture",
         },
         {
           id: 4,
           image: "project__item_8.png",
-          title: "Modern Bathroom",
-          text: "Decor / Architecture"
+          title: "Modern Medroom",
+          text: "Decor / Architecture",
         },
         {
           id: 5,
           image: "project__item_2.png",
-          title: "Modern Bathroom",
-          text: "Decor / Architecture"
+          title: "Minimal Bedroom",
+          text: "Decor / Architecture",
         },
         {
           id: 6,
           image: "project__item_5.png",
-          title: "Modern Bathroom",
-          text: "Decor / Architecture"
+          title: "Modern Bedroom",
+          text: "Decor / Architecture",
         },
         {
           id: 7,
           image: "project__item_7.png",
-          title: "Modern Bathroom",
-          text: "Decor / Architecture"
+          title: "System Table",
+          text: "Decor / Architecture",
         },
         {
           id: 8,
           image: "project__item_3.png",
-          title: "Modern Bathroom",
-          text: "Decor / Architecture"
+          title: "Modern Bedroom",
+          text: "Decor / Architecture",
         },
-      ]
+      ],
     };
   },
 
