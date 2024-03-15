@@ -121,7 +121,7 @@
     &__item {
        border: 1px solid #e7e7e7;
        border-radius: 62px;
-       padding: 21px;
+       padding: 22px;
        &-select {
           background: #f4f0ec;
        }
