@@ -1,30 +1,27 @@
 <template>
   <div id="app">
-    <Home1Page/>
-    <Blog2Page/>
-    <BlogDetails4Page/>
-    <Project3Page/>
+    <router-view />
   </div>
 </template>
 
 <script>
-import Blog2Page from './pages/Blog2Page.vue';
-import Home1Page from './pages/Home1Page.vue';
-import BlogDetails4Page from './pages/BlogDetails4Page.vue';
-import Project3Page from './pages/Project3Page.vue';
 export default {
   name: 'App',
   components: {
-    Home1Page,
-    Blog2Page,
-    BlogDetails4Page,
-    Project3Page,
+    
   }
 }
 </script>
 
 <style lang="scss">
 @import "../src/assets/scss/vars.scss";
+$widthSite: 1200px;
+$familyTitle: "DM Serif Display";
+$familyText: "Jost";
+$font-400: 400;
+$font-500: 500;
+$font-600: 600;
+
 * {
   margin: 0;
   padding: 0;

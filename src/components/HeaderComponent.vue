@@ -4,17 +4,28 @@
       <img src="../assets/images/Logo_icon.png" alt="logo" />
       <p class="logo__text">Interno</p>
     </div>
-    <div class="header__menu">
-      <a class="header__link" href="#">Home</a>
-      <a class="header__link" href="#">Project</a>
-      <a class="header__link" href="#">Blog</a>
-    </div>
+      <nav class="header__menu">
+    <router-link class="header__link" to="/home">
+      Home
+    </router-link>
+    <router-link class="header__link" to="/project">
+      Project
+    </router-link>
+    <router-link class="header__link" to="/blog">
+      Blog
+    </router-link>
+</nav>
   </header>
 </template>
 
 <script>
+import NavigationPages from './NavigationPages.vue';
+
+
+
 export default {
   name: "HeaderComponent",
+  NavigationPages,
 
   data() {
     return {};
