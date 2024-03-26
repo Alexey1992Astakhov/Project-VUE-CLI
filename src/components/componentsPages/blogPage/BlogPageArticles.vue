@@ -28,6 +28,7 @@
  
  <script>
  import ArticlesComponent from '@/components/ArticlesComponent.vue';
+ import { mapActions, mapGetters } from 'vuex';
  
  export default {
    name: 'BlogPageArticles',
@@ -90,7 +91,13 @@
    },
  
    methods: {
- 
+      ...mapActions({
+         prevPage: 'articles/prevPage',
+         nextPage: 'articles/nextPage'
+      }),
+   },
+   computed: {
+      ...mapGetters({paginatedData: 'articles/getPaginatedData'})
    }
  }
  </script>
